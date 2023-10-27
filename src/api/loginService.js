@@ -1,6 +1,3 @@
-
-import { json } from "react-router-dom"
-
 export async function loginService ({userName, passWord }){    
     try {   
         console.log({userName,passWord});

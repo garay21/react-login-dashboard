@@ -16,12 +16,12 @@ const Header = () =>{
             <img src="src\assets\icons\ubi.png" alt="Uby Party Logo" />
             <h3>Party Manager</h3>
             <ul className={act ? 'nav-list active' : 'nav-list'}>
-                <li>Home</li>
-                <li>Mis Locales</li>
-                <li>Mis Eventos</li>
-                <li>Perfil</li>
-                <li>About</li>
-                <li>Config</li>                
+                <li><NavLink to='/Home'>Home</NavLink></li>
+                <li><NavLink to='/Places'>Mis Locales</NavLink></li>
+                <li><NavLink to='/Events'>Mis Eventos</NavLink></li>
+                <li><NavLink to='/Profile' >Perfil</NavLink> </li>
+                <li>  <NavLink to='/About' >About  </NavLink> </li>
+                <li>  <NavLink to='/Config'>Config</NavLink> </li>                
             </ul>
             <ul>
                 <li><NavLink to="/Login">Login</NavLink></li>
