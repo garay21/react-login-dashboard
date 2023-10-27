@@ -36,6 +36,10 @@ main {
     justify-content: center;
 }
 
+.form-login p{
+    color: red;
+    font-size: medium;    
+}
 .new-user{
     margin: 0%;
 }
