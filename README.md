@@ -1,3 +1,3 @@
 #React + Vite aplication
 
-Aplicacion con acceso login, utilizando menu responcivo. 
+Aplicacion con acceso login, utilizando menu responsivo. 
